@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ExcellencyBuilders</title>
+  <link rel="icon" href="logo.jpg" type="image/jpg">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <img src="logo.jpg">
+    </div>
+    
+    <div class="server">
+      <p>ExcellencyBuilders | excellency.su</p>
+    </div>
+    
+    <nav>
+      <button class="social-button" onclick="window.open('https://discord.gg/soon', '_blank')">Discord</button>
+      <button class="social-button" onclick="window.open('https://vk.com/soon', '_blank')">VK</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="donation-section">
+      <h2>Купить проходку</h2>
+      <p>Покупая этот товар, Вам<br>выдаётся проходка на сервере.<br>Творите безгранично!</p>
+      <div class="price">99 руб.</div>
+      <button class="buy-button" onclick="window.open('https://discord.gg/soon', '_blank')">КУПИТЬ</button>
+    </section>
+    <div class="buy-form" style="display: none;">
+      <h2>Введите данные для покупки</h2>
+      <input type="text" id="nickname" placeholder="Введите ваш никнейм">
+      <input type="email" id="email" placeholder="Email (необязательно)">
+      <input type="text" id="promocode" placeholder="Промокод (необязательно)">
+      <button class="buy-now">ПЕРЕЙТИ К ОПЛАТЕ</button>
+      <button id="close-form">x</button>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
